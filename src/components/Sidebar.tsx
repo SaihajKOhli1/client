@@ -26,19 +26,19 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
     <Drawer variant="temporary" open={isOpen} onClose={onClose}>
       <Box sx={{ width: drawerWidth, pt: 2, pb: 2 }}>
         <List>
-          <ListItem button component={Link} to="/company/apple">
+          <ListItem button component={Link} to="/apple">
             <ListItemText primary="Apple Inc." />
           </ListItem>
-          <ListItem button component={Link} to="/company/procter-gamble">
+          <ListItem button component={Link} to="/procter-gamble">
             <ListItemText primary="Procter & Gamble Co." />
           </ListItem>
-          <ListItem button component={Link} to="/company/exxon-mobil">
+          <ListItem button component={Link} to="/exxon-mobil">
             <ListItemText primary="Exxon Mobil Corp." />
           </ListItem>
-          <ListItem button component={Link} to="/company/jpmorgan">
+          <ListItem button component={Link} to="/jpmorgan-chase">
             <ListItemText primary="JPMorgan Chase & Co." />
           </ListItem>
-          <ListItem button component={Link} to="/company/tesla">
+          <ListItem button component={Link} to="/tesla">
             <ListItemText primary="Tesla, Inc." />
           </ListItem>
         </List>
